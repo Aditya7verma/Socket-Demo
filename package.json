@@ -1,0 +1,17 @@
+{
+  "name": "socket_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "perfect-scrollbar": "^1.5.5",
+    "socket.io": "^4.7.5"
+  }
+}
