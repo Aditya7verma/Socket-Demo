@@ -18,7 +18,7 @@ sendButton.addEventListener("click", () => {
 // Showing the msg in chat-box, we sent via chat-box
 
 socket.on("received-msg", (data) => {
-  console.log(data);
+  // console.log(data);
   const div = document.createElement("div");
 
   if (data.id === socket.id) {
